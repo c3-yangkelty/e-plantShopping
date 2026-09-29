@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://cdn.pixabay.com/photo/2017/07/13/08/59/greenhouse-2499758_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+.landing_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  padding: 20px;
+}
+
+.landing_content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.divider {
+  width: 120px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.landing_content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.get-started-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+  background-color: #45a049;
+}
+
+.get-started-button1 {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.get-started-button1:hover {
+  background-color: #45a049;
+}
+
+.aboutus_container {
+  flex: 1;
+  padding: 40px;
+  max-width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+}
+
+.product-list-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+}
